@@ -29,6 +29,6 @@ jobs:
           echo '----------'
           ls -hal ~
           echo '----------'
-          ls -hal ~/runners
+          ls -hal ~/factory
           echo '----------'
           cat *.txt
