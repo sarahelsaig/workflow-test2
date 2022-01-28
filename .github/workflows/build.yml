@@ -23,6 +23,6 @@ jobs:
         id: add_package
         run: |
           pwd
-          git archive --remote=git@github.com:Lombiq/GitHub-Actions.git HEAD Readme.md
+          curl https://raw.githubusercontent.com/Lombiq/GitHub-Actions/dev/Readme.md >> Readme.md
           ls
           cat Readme.md
