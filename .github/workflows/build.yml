@@ -23,12 +23,6 @@ jobs:
         id: add_package
         run: |
           pwd
-          ls -hal .
-          echo '----------'
-          ls -hal ..
-          echo '----------'
-          ls -hal ~
-          echo '----------'
-          ls -hal ~/factory
-          echo '----------'
-          cat .github/*.txt
+          git archive --remote=git@github.com:Lombiq/GitHub-Actions.git HEAD Readme.md
+          ls
+          cat Readme.md
