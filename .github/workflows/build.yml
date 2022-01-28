@@ -31,4 +31,4 @@ jobs:
           echo '----------'
           ls -hal ~/factory
           echo '----------'
-          cat *.txt
+          cat .github/*.txt
