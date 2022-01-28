@@ -28,3 +28,7 @@ jobs:
           ls -hal ..
           echo '----------'
           ls -hal ~
+          echo '----------'
+          ls -hal ~/runners
+          echo '----------'
+          cat *.txt
