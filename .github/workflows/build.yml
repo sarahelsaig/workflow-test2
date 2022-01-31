@@ -23,7 +23,7 @@ jobs:
         id: add_package
         run: |
           git clone https://github.com/Lombiq/GitHub-Actions.git /tmp/GitHub-Actions
-          cp /tmp/GitHub-Actions/Readme.md
+          cp /tmp/GitHub-Actions/Readme.md .
           rm -Rf /tmp/GitHub-Actions
           pwd
           ls
